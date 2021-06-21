@@ -1,37 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="95" started-at="2021-06-13T11:12:24 IST" finished-at="2021-06-13T11:12:24 IST">
+  <suite name="Default suite" duration-ms="37252" started-at="2021-06-20T10:20:02 IST" finished-at="2021-06-20T10:20:39 IST">
     <groups>
-      <group name="run">
-        <method signature="GropingClass.testcase1()[pri:0, instance:testng.GropingClass@e048a]" name="testcase1" class="testng.GropingClass"/>
-        <method signature="GropingClass.testcase3()[pri:0, instance:testng.GropingClass@e048a]" name="testcase3" class="testng.GropingClass"/>
-      </group> <!-- run -->
-      <group name="walk">
-        <method signature="GropingClass.testcase()[pri:0, instance:testng.GropingClass@e048a]" name="testcase" class="testng.GropingClass"/>
-        <method signature="GropingClass.testcase2()[pri:0, instance:testng.GropingClass@e048a]" name="testcase2" class="testng.GropingClass"/>
-      </group> <!-- walk -->
     </groups>
-    <test name="Test" duration-ms="95" started-at="2021-06-13T11:12:24 IST" finished-at="2021-06-13T11:12:24 IST">
-      <class name="testng.GropingClass">
-        <test-method status="PASS" signature="testcase()[pri:0, instance:testng.GropingClass@e048a]" name="testcase" duration-ms="16" started-at="2021-06-13T11:12:24 IST" finished-at="2021-06-13T11:12:24 IST">
+    <test name="Default test" duration-ms="37252" started-at="2021-06-20T10:20:02 IST" finished-at="2021-06-20T10:20:39 IST">
+      <class name="xpath.XpathClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:xpath.XpathClass@1f8bee4]" name="setup" duration-ms="37072" started-at="2021-06-20T10:20:02 IST" finished-at="2021-06-20T10:20:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:testng.GropingClass@e048a]" name="testcase1" duration-ms="3" started-at="2021-06-13T11:12:24 IST" finished-at="2021-06-13T11:12:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:testng.GropingClass@e048a]" name="testcase2" duration-ms="2" started-at="2021-06-13T11:12:24 IST" finished-at="2021-06-13T11:12:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase2 -->
-        <test-method status="PASS" signature="testcase3()[pri:0, instance:testng.GropingClass@e048a]" name="testcase3" duration-ms="2" started-at="2021-06-13T11:12:24 IST" finished-at="2021-06-13T11:12:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase3 -->
-      </class> <!-- testng.GropingClass -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- setup -->
+      </class> <!-- xpath.XpathClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
